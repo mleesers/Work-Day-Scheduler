@@ -1,9 +1,10 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
   
-  text {
+  textarea {
     background: transparent;
     border: none;
     resize: none;
@@ -59,9 +60,10 @@ body {
   }
   
   .saveBtn {
+    border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    border-style: none;
+    border-style:none;
     background-color: #06aed5;
     color: white;
   }
